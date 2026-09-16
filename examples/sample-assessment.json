@@ -1,0 +1,22 @@
+{
+  "SEC-001": true,
+  "SEC-002": true,
+  "SEC-003": true,
+  "SEC-004": true,
+  "REL-001": true,
+  "REL-002": true,
+  "REL-003": false,
+  "REL-004": true,
+  "PERF-001": true,
+  "PERF-002": true,
+  "PERF-003": false,
+  "PERF-004": true,
+  "COST-001": true,
+  "COST-002": true,
+  "COST-003": false,
+  "COST-004": true,
+  "SUS-001": true,
+  "SUS-002": false,
+  "SUS-003": true,
+  "SUS-004": true
+}

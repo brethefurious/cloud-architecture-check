@@ -1,0 +1,26 @@
+[
+  {"id":"SEC-001","pillar":"Security","title":"Use strong identity and least-privilege access","description":"Prefer centralized identity, strong authentication, short-lived credentials, and least-privilege authorization."},
+  {"id":"SEC-002","pillar":"Security","title":"Protect secrets and sensitive configuration","description":"Keep secrets out of source code and use managed secret storage with rotation."},
+  {"id":"SEC-003","pillar":"Security","title":"Encrypt data in transit and at rest","description":"Use modern encryption for data flows and stored data, with appropriate key management."},
+  {"id":"SEC-004","pillar":"Security","title":"Segment networks and workloads","description":"Limit lateral movement with segmentation, explicit trust boundaries, and restrictive traffic policies."},
+
+  {"id":"REL-001","pillar":"Reliability","title":"Design for failure isolation","description":"Reduce blast radius by isolating failure domains, tenants, components, or cells where appropriate."},
+  {"id":"REL-002","pillar":"Reliability","title":"Automate backup and recovery","description":"Use automated, monitored backups and define recovery objectives."},
+  {"id":"REL-003","pillar":"Reliability","title":"Test recovery procedures","description":"Regularly validate failover, restore, and disaster-recovery procedures instead of relying on documentation alone."},
+  {"id":"REL-004","pillar":"Reliability","title":"Use resilient communication patterns","description":"Apply timeouts, retries with backoff, idempotency, and circuit breaking where appropriate."},
+
+  {"id":"PERF-001","pillar":"Performance Efficiency","title":"Scale capacity according to demand","description":"Use elasticity or autoscaling where workloads have variable demand."},
+  {"id":"PERF-002","pillar":"Performance Efficiency","title":"Measure end-to-end performance","description":"Collect latency, throughput, saturation, and error signals for critical user journeys and services."},
+  {"id":"PERF-003","pillar":"Performance Efficiency","title":"Use caching intentionally","description":"Cache suitable data and responses while defining expiration, invalidation, and consistency behavior."},
+  {"id":"PERF-004","pillar":"Performance Efficiency","title":"Select fit-for-purpose managed services","description":"Prefer services whose operational and scaling characteristics match the workload requirements."},
+
+  {"id":"COST-001","pillar":"Cost Optimization","title":"Track cost ownership","description":"Use tagging, accounts, subscriptions, projects, or equivalent structures to attribute cloud spend."},
+  {"id":"COST-002","pillar":"Cost Optimization","title":"Right-size resources","description":"Regularly compare provisioned capacity with observed utilization and workload requirements."},
+  {"id":"COST-003","pillar":"Cost Optimization","title":"Remove idle and obsolete resources","description":"Detect and retire unused compute, storage, addresses, snapshots, and other billable resources."},
+  {"id":"COST-004","pillar":"Cost Optimization","title":"Use lifecycle and retention policies","description":"Align storage tiers, logs, backups, and retained data with actual business and compliance requirements."},
+
+  {"id":"SUS-001","pillar":"Sustainability","title":"Improve workload utilization","description":"Reduce unnecessary resource consumption by increasing utilization efficiency and eliminating idle capacity."},
+  {"id":"SUS-002","pillar":"Sustainability","title":"Minimize unnecessary data movement","description":"Reduce avoidable network transfers, duplicate processing, and excessive data replication."},
+  {"id":"SUS-003","pillar":"Sustainability","title":"Use efficient data retention","description":"Avoid retaining unnecessary data and choose storage classes appropriate to access patterns."},
+  {"id":"SUS-004","pillar":"Sustainability","title":"Consider sustainability in architecture decisions","description":"Include energy, resource efficiency, and environmental impact among architecture trade-offs where data is available."}
+]
